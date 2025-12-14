@@ -1,6 +1,7 @@
 import Link from "next/link"
-import Logo from "../components/logo/logo"
-
+import Logo from "../components/logo"
+import { IconUserFilled } from "@tabler/icons-react"
+import BotaoIcone from "../components/logo/BotaoIcone"
 
 const BarraSuperior = () => {
     return(
@@ -14,8 +15,16 @@ const BarraSuperior = () => {
             <Link className="opacity-50" href="/"> Experiências </Link>
           </div>
 
-          <button className="rounded-md border-2">Entrar</button>
-         
+          <BotaoIcone icone={(
+            <IconUserFilled
+          aria-label="Icone de usuario"
+          size={24}
+          />
+          )}>
+
+            Entrar
+          </BotaoIcone>
+
         </div>
 
       </div>
