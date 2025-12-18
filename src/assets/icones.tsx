@@ -3,4 +3,6 @@
 // export {IconUserFilled, IconSearch}
 
 export {IconUserFilled, 
-    IconSearch} from '@tabler/icons-react';
+    IconSearch,
+    IconAdjustmentsHorizontal
+} from '@tabler/icons-react';

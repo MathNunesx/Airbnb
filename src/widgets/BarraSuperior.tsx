@@ -6,7 +6,7 @@ import BotaoIcone from "../components/logo/BotaoIcone"
 const BarraSuperior = () => {
     return(
          <div> 
-        <div className=" container mx-auto flex justify-between items-center">
+        <div className=" flex justify-between items-center">
 
           <Logo/>
          
