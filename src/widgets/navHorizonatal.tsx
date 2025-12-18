@@ -3,7 +3,6 @@ import {Swiper, SwiperSlide} from 'swiper/react'
 import 'swiper/css'
 import { IconAdjustmentsHorizontal } from '@tabler/icons-react'
 import BotaoIcone from '../components/logo/BotaoIcone'
-
 const NavHorizontal = () => {
     return(
         <div className='flex flex-row items-center'>
